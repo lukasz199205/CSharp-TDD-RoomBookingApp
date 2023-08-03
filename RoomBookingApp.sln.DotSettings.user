@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3f2782d8_002D00f5_002D4d3a_002Db825_002D33baed444581/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::5532B46C-A606-42D1-A6D2-6E6C76581EFA::net7.0::RoomBookingApp.Core.RoomBookingRequestProcessorTest.Should_Return_Room_Booking_Response_With_Request_Values&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5532B46C-A606-42D1-A6D2-6E6C76581EFA::net7.0::RoomBookingApp.Core.RoomBookingRequestProcessorTest.Should_Throw_Exception_For_Null_Request&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -6,11 +6,18 @@ public class RoomBookingRequestProcessor
 {
     public RoomBookingResult BookRoom(RoomBookingRequest bookingRequest)
     {
-        return new RoomBookingResult
+        if (bookingRequest is null)
         {
-            FullName = bookingRequest.FullName,
-            Email = bookingRequest.Email,
-            Date = bookingRequest.Date
-        };
+            throw new ArgumentNullException(nameof(bookingRequest));
+        }
+        else
+        {
+            return new RoomBookingResult
+            {
+                FullName = bookingRequest.FullName,
+                Email = bookingRequest.Email,
+                Date = bookingRequest.Date
+            };
+        }
     }
 }
