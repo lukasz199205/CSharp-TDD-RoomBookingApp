@@ -4,6 +4,11 @@ public class RoomBookingRequestProcessor
 {
     public RoomBookingResult BookRoom(RoomBookingRequest bookingRequest)
     {
-        throw new NotImplementedException();
+        return new RoomBookingResult
+        {
+            FullName = bookingRequest.FullName,
+            Email = bookingRequest.Email,
+            Date = bookingRequest.Date
+        };
     }
 }
