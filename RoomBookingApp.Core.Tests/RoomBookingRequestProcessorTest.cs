@@ -1,4 +1,6 @@
-﻿using Shouldly;
+﻿using RoomBookingApp.Core.Models;
+using RoomBookingApp.Core.Processors;
+using Shouldly;
 
 namespace RoomBookingApp.Core;
 
@@ -10,23 +12,23 @@ public class RoomBookingRequestProcessorTest
         //Arrange
         var bookingRequest = new RoomBookingRequest
         {
-            FullName  = "Test Name",
+            FullName = "Test Name",
             Email = "test@request.com",
             Date = new DateTime(2021, 10, 20)
         };
-        
+
         var processor = new RoomBookingRequestProcessor();
 
         //Act
         RoomBookingResult result = processor.BookRoom(bookingRequest);
-        
+
         //Assert
-        
+
         Assert.NotNull(result);
         Assert.Equal(bookingRequest.FullName, result.FullName);
         Assert.Equal(bookingRequest.Email, result.Email);
         Assert.Equal(bookingRequest.Date, result.Date);
-        
+
         result.ShouldNotBeNull();
         result.FullName.ShouldBe(bookingRequest.FullName);
         result.Email.ShouldBe(bookingRequest.Email);

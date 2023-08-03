@@ -1,6 +1,6 @@
-﻿namespace RoomBookingApp.Core;
+namespace RoomBookingApp.Core.Models;
 
-public class RoomBookingRequest
+public class RoomBookingResult
 {
     public string FullName { get; set; }
     public string Email { get; set; }
