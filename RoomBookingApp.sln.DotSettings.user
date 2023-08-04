@@ -1,5 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3f2782d8_002D00f5_002D4d3a_002Db825_002D33baed444581/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1cb9bf02_002D32f6_002D4265_002Da38b_002D26234a649f94/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Should_Return_Available_Rooms" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::EC9A916D-D69E-4F85-B7A2-0A1438D1D0A6::net7.0::RoomBookingApp.Persistence.Tests.RoomBookingServiceTest.Should_Return_Available_Rooms&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3f2782d8_002D00f5_002D4d3a_002Db825_002D33baed444581/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::5532B46C-A606-42D1-A6D2-6E6C76581EFA::net7.0::RoomBookingApp.Core.RoomBookingRequestProcessorTest.Should_Return_Room_Booking_Response_With_Request_Values&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5532B46C-A606-42D1-A6D2-6E6C76581EFA::net7.0::RoomBookingApp.Core.RoomBookingRequestProcessorTest.Should_Throw_Exception_For_Null_Request&lt;/TestId&gt;&#xD;
@@ -7,5 +12,6 @@
     &lt;TestId&gt;xUnit::5532B46C-A606-42D1-A6D2-6E6C76581EFA::net7.0::RoomBookingApp.Core.RoomBookingRequestProcessorTest.Should_Not_Save_Room_Booking_Request_If_None_Available&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5532B46C-A606-42D1-A6D2-6E6C76581EFA::net7.0::RoomBookingApp.Core.RoomBookingRequestProcessorTest.Should_Return_Success_Or_Failure_flag_In_Result&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5532B46C-A606-42D1-A6D2-6E6C76581EFA::net7.0::RoomBookingApp.Core.RoomBookingRequestProcessorTest.Should_Return_RoomBookingId_In_Result&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EC9A916D-D69E-4F85-B7A2-0A1438D1D0A6::net7.0::RoomBookingApp.Persistence.Tests.RoomBookingServiceTest.Should_Return_Available_Rooms&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
