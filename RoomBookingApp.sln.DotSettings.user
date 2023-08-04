@@ -14,5 +14,6 @@
     &lt;TestId&gt;xUnit::5532B46C-A606-42D1-A6D2-6E6C76581EFA::net7.0::RoomBookingApp.Core.RoomBookingRequestProcessorTest.Should_Return_RoomBookingId_In_Result&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EC9A916D-D69E-4F85-B7A2-0A1438D1D0A6::net7.0::RoomBookingApp.Persistence.Tests.RoomBookingServiceTest.Should_Return_Available_Rooms&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EC9A916D-D69E-4F85-B7A2-0A1438D1D0A6::net7.0::RoomBookingApp.Persistence.Tests.RoomBookingServiceTest.Should_Save_Room_Booking&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::358BD773-DEB1-4971-A887-D45BED4650A6::net7.0::RoomBookingApp.Api.Tests.RoomBookingControllerTests.Should_Call_Booking_Method_When_Valid&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
