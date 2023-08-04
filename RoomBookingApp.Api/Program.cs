@@ -1,7 +1,9 @@
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
+using RoomBookingApp.Core.DataServices;
 using RoomBookingApp.Core.Processors;
 using RoomBookingApp.Persistence;
+using RoomBookingApp.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,12 +14,24 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var connString = "DataSource=:memory:";
+var connString = "Filename=:memory:";
 var conn = new SqliteConnection(connString);
 conn.Open();
 
 builder.Services.AddDbContext<RoomBookingAppDbContext>(opt => opt.UseSqlite(conn));
 
+EnsureDatabaseCreated(conn);
+
+static void EnsureDatabaseCreated(SqliteConnection sqliteConnection)
+{
+    var builderObj = new DbContextOptionsBuilder<RoomBookingAppDbContext>();
+    builderObj.UseSqlite(sqliteConnection);
+
+    using var context = new RoomBookingAppDbContext(builderObj.Options);
+    context.Database.EnsureCreated();
+}
+
+builder.Services.AddScoped<IRoomBookingService, RoomBookingService>();
 builder.Services.AddScoped<IRoomBookingRequestProcessor, RoomBookingRequestProcessor>();
 
 var app = builder.Build();
