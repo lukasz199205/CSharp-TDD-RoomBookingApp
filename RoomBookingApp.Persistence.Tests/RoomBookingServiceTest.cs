@@ -45,7 +45,7 @@ public class RoomBookingServiceTest
         var dbOptions = new DbContextOptionsBuilder<RoomBookingAppDbContext>()
             .UseInMemoryDatabase("ShouldSaveTest")
             .Options;
-        var roomBooking = new RoomBooking { RoomId = 1, Date = new DateTime(2023, 08, 04) };
+        var roomBooking = new RoomBooking { RoomId = 1, Date = new DateTime(2023, 08, 04)};
         
         using var context = new RoomBookingAppDbContext(dbOptions);
         var roomBookingService = new RoomBookingService(context);
