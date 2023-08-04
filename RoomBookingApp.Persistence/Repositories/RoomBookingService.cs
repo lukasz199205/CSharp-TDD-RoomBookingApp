@@ -13,7 +13,8 @@ public class RoomBookingService : IRoomBookingService
     }
     public void Save(RoomBooking roomBooking)
     {
-        throw new NotImplementedException();
+        _context.Add(roomBooking);
+        _context.SaveChanges();
     }
 
     public IEnumerable<Room> GetAvailableRooms(DateTime date)
