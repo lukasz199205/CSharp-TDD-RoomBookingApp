@@ -18,6 +18,8 @@ public class RoomBookingService : IRoomBookingService
 
     public IEnumerable<Room> GetAvailableRooms(DateTime date)
     {
-        throw new NotImplementedException();
+        //var unAvailableRooms = _context.RoomBookings.Where(q => q.Date == date).Select(q => q.RoomId).ToList();
+        //var availableRooms = _context.Rooms.Where(q => unAvailableRooms.Contains(q.Id) == false).ToList();
+        return _context.Rooms.Where(q => q.RoomBookings.All(x => x.Date != date)).ToList();
     }
 }
