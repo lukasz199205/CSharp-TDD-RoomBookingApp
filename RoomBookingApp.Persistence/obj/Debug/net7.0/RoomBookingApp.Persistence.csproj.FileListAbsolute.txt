@@ -1,0 +1,17 @@
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net7.0\RoomBookingApp.Persistence.deps.json
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net7.0\RoomBookingApp.Persistence.dll
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net7.0\RoomBookingApp.Persistence.pdb
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\RoomBookingApp.Persistence.csproj.AssemblyReference.cache
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\RoomBookingApp.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\RoomBookingApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\RoomBookingApp.Persistence.AssemblyInfo.cs
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\RoomBookingApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\RoomBookingApp.Persistence.dll
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\refint\RoomBookingApp.Persistence.dll
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\RoomBookingApp.Persistence.pdb
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\ref\RoomBookingApp.Persistence.dll
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net7.0\RoomBookingApp.Core.dll
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net7.0\RoomBookingApp.Domain.dll
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net7.0\RoomBookingApp.Core.pdb
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net7.0\RoomBookingApp.Domain.pdb
+C:\Users\Łukasz\Desktop\Repozytoria\RiderProjects\tdd\CSharp-TDD-RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net7.0\RoomBookingApp.Persistence.csproj.CopyComplete

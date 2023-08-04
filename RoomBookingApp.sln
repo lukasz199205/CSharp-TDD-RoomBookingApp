@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Core.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Core", "RoomBookingApp.Core\RoomBookingApp.Core.csproj", "{FC4DA550-8CDC-420D-86FE-9DB62B3B6098}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Domain", "RoomBookingApp.Domain\RoomBookingApp.Domain.csproj", "{7BDE9663-F9E2-4F58-8ADA-F92EEF6DA808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Persistence", "RoomBookingApp.Persistence\RoomBookingApp.Persistence.csproj", "{B876C07A-15EC-4A9F-8377-DAFE7CC4F653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Persistence.Tests", "RoomBookingApp.Persistence.Tests\RoomBookingApp.Persistence.Tests.csproj", "{EC9A916D-D69E-4F85-B7A2-0A1438D1D0A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{FC4DA550-8CDC-420D-86FE-9DB62B3B6098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC4DA550-8CDC-420D-86FE-9DB62B3B6098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC4DA550-8CDC-420D-86FE-9DB62B3B6098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BDE9663-F9E2-4F58-8ADA-F92EEF6DA808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDE9663-F9E2-4F58-8ADA-F92EEF6DA808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDE9663-F9E2-4F58-8ADA-F92EEF6DA808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDE9663-F9E2-4F58-8ADA-F92EEF6DA808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B876C07A-15EC-4A9F-8377-DAFE7CC4F653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B876C07A-15EC-4A9F-8377-DAFE7CC4F653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B876C07A-15EC-4A9F-8377-DAFE7CC4F653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B876C07A-15EC-4A9F-8377-DAFE7CC4F653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9A916D-D69E-4F85-B7A2-0A1438D1D0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9A916D-D69E-4F85-B7A2-0A1438D1D0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9A916D-D69E-4F85-B7A2-0A1438D1D0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9A916D-D69E-4F85-B7A2-0A1438D1D0A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
