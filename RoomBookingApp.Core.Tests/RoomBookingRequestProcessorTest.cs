@@ -26,6 +26,9 @@ public class RoomBookingRequestProcessorTest
         _availableRooms = new List<Room>()
         {
             new Room()
+            {
+                Id = 1
+            }
         };
         _roomBookingServiceMock = new Mock<IRoomBookingService>();
         _roomBookingServiceMock.Setup(q => q.GetAvailableRooms(_bookingRequest.Date))
@@ -78,6 +81,7 @@ public class RoomBookingRequestProcessorTest
         savedBooking.FullName.ShouldBe(_bookingRequest.FullName);
         savedBooking.Email.ShouldBe(_bookingRequest.Email);
         savedBooking.Date.ShouldBe(_bookingRequest.Date);
+        savedBooking.RoomId.ShouldBe(_availableRooms.First().Id);
     }
     
     [Fact]
